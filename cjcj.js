@@ -34,23 +34,7 @@ var dcys = {
 		'head': '优质资源专区',
 		'tips': '<font color="red">资源站置顶推荐</font> 如有需要情咨询QQ：<a href="http://wpa.qq.com/msgrd?v=3&uin=188810296&site=qq&menu=yes" class="layui-badge layui-bg-red">188810296</a> ',
 		'rows': [
-		{
-                     'flag': 'qq',
-                     'name': '梦兰资源站',
-                     'rema': '综合腾讯,优酷,爱奇艺,芒果,搜狐,哔哩哔哩',
-                     'apis': 'https://www.mlzy.cc/api.php/provide/vod/at/xml/',
-                     'tips': '<span class="layui-badge layui-bg-red">推荐采集</span>',
-                     'coll': '腾讯,qq,976,1|优酷,youku,798,1|爱奇艺,qiyi,797,1|芒果,mgtv,796,1|搜狐,sohu,795,1|乐视,letv,794,1|PPTV,pptv,793,1|咪咕,migu,793,1|央视网,cntv,793,1|哔哩哔哩,bilibili,793,1|华数视频,wasu,793,1',
-             		'zylink': 'https://ziyuan.nuoxun.net/'
-                 },
-		{
-			'flag': 'alizy',
-			'name': '阿里云资源站',
-			'rema': "速度快,部分m3u8,mp4直链",
-			'apis': 'http://www.cqzyw.net:88/api.php/provide/vod/?ac=list',
-			'tips': '<span class="layui-badge layui-bg-red">推荐采集</span>',
-			'coll': '阿里云资源,alizy,1080,1'
-		}, {
+		 {
                      'flag': 'dbm3u8',
                      'name': '百度云资源站',
                      'rema': 'HTTPS资源M3u8直链',
@@ -93,21 +77,13 @@ var dcys = {
 		'rows': [
 		{
                      'flag': 'qq',
-                     'name': '梦兰资源站',
+                     'name': '蘑菇资源网',
                      'rema': '综合腾讯,优酷,爱奇艺,芒果,搜狐,哔哩哔哩',
-                     'apis': 'https://www.mlzy.cc/api.php/provide/vod/at/xml/',
+                     'apis': 'http://www.moguzyw.com:520/moguzy.php/provide/vod/?ac=list',
                      'tips': '<span class="layui-badge layui-bg-red">推荐采集</span>',
                      'coll': '腾讯,qq,976,1|优酷,youku,798,1|爱奇艺,qiyi,797,1|芒果,mgtv,796,1|搜狐,sohu,795,1|乐视,letv,794,1|PPTV,pptv,793,1|咪咕,migu,793,1|央视网,cntv,793,1|哔哩哔哩,bilibili,793,1|华数视频,wasu,793,1',
-             		'zylink': 'https://ziyuan.nuoxun.net/'
-                 },
-		{
-			'flag': 'lbzy',
-			'name': '萝卜资源站',
-			'rema': "综合腾讯,优酷,爱奇艺,芒果,搜狐等等",
-			'apis': 'http://cj.lby.pet/api.php/provide/vod/?ac=list',
-			'tips': '<span class="layui-badge layui-bg-green">正常采集 </span>',
-            'coll': '腾讯,qq,976,1|优酷,youku,798,1|爱奇艺,qiyi,797,1|芒果,mgtv,796,1|搜狐,sohu,795,1|乐视,letv,794,1|PPTV,pptv,793,1|咪咕,migu,793,1|央视网,cntv,793,1|哔哩哔哩,bilibili,793,1|华数视频,wasu,793,1',
-		}, {
+             		'zylink': 'https://tv.lmzy.cc/'
+                 }, {
                      'flag': 'qq',
                      'name': '1717资源站',
                      'rema': 'HTTPS资源综合腾讯,优酷,爱奇艺,芒果,搜狐,乐视,PP',
@@ -116,6 +92,14 @@ var dcys = {
                      'coll': '腾讯,qq,976,1|优酷,youku,798,1|爱奇艺,qiyi,797,1|芒果,mgtv,796,1|搜狐,sohu,795,1|乐视,letv,794,1|PPTV,pptv,793,1|咪咕,migu,793,1|央视网,cntv,793,1|哔哩哔哩,bilibili,793,1|华数视频,wasu,793,1',
              		'zylink': 'https://zy.itono.cn/'
                  },	{
+                     'flag': 'qq',
+                     'name': '欧宝资源站',
+                     'rema': 'HTTP资源',
+                     'apis': 'http://zy.266sc.cn/api.php/provide/vod/at/xml/',
+                     'tips': '<span class="layui-badge layui-bg-green">正常采集 </span>',
+                     'coll': '腾讯,qq,976,1|优酷,youku,798,1|爱奇艺,qiyi,797,1|芒果,mgtv,796,1|搜狐,sohu,795,1|乐视,letv,794,1|PPTV,pptv,793,1|咪咕,migu,793,1|央视网,cntv,793,1|哔哩哔哩,bilibili,793,1|华数视频,wasu,793,1',
+             		'zylink': 'https://zy.266sc.cn/'
+                 },{
                      'flag': 'qq',
                      'name': '8090资源站',
                      'rema': 'HTTPS资源',
@@ -140,6 +124,24 @@ var dcys = {
                      'coll': '腾讯,qq,976,1|优酷,youku,798,1|爱奇艺,qiyi,797,1|芒果,mgtv,796,1|搜狐,sohu,795,1|乐视,letv,794,1|PPTV,pptv,793,1|咪咕,migu,793,1|央视网,cntv,793,1|哔哩哔哩,bilibili,793,1|华数视频,wasu,793,1',
              		'zylink': 'http://zy.singlive.cn/'
                  }
+				 ,
+		{
+                     'flag': 'qq',
+                     'name': '梦兰资源站倒闭',
+                     'rema': '综合腾讯,优酷,爱奇艺,芒果,搜狐,哔哩哔哩',
+                     'apis': 'https://www.mlzy.cc/api.php/provide/vod/at/xml/',
+                     'tips': '<span class="layui-badge layui-bg-red">推荐采集</span>',
+                     'coll': '腾讯,qq,976,1|优酷,youku,798,1|爱奇艺,qiyi,797,1|芒果,mgtv,796,1|搜狐,sohu,795,1|乐视,letv,794,1|PPTV,pptv,793,1|咪咕,migu,793,1|央视网,cntv,793,1|哔哩哔哩,bilibili,793,1|华数视频,wasu,793,1',
+             		'zylink': 'https://ziyuan.nuoxun.net/'
+                 },
+		{
+			'flag': 'lbzy',
+			'name': '萝卜资源站倒闭',
+			'rema': "综合腾讯,优酷,爱奇艺,芒果,搜狐等等",
+			'apis': 'http://cj.lby.pet/api.php/provide/vod/?ac=list',
+			'tips': '<span class="layui-badge layui-bg-green">正常采集 </span>',
+            'coll': '腾讯,qq,976,1|优酷,youku,798,1|爱奇艺,qiyi,797,1|芒果,mgtv,796,1|搜狐,sohu,795,1|乐视,letv,794,1|PPTV,pptv,793,1|咪咕,migu,793,1|央视网,cntv,793,1|哔哩哔哩,bilibili,793,1|华数视频,wasu,793,1',
+		}
                  ]
 	},
 	'm3u8': {
@@ -214,10 +216,10 @@ var dcys = {
                      'flag': 'bjm3u8',
                      'name': '八戒资源网',
                      'rema': 'HTTPS资源M3u8直链',
-                     'apis': 'https://cj.bajiecaiji.com/inc/bjm3u8.php',
+                     'apis': 'http://cj.bajiecaiji.com/inc/seabjm3u8.php',
                      'tips': '<span class="layui-badge layui-bg-green">正常采集 </span>',
                      'coll': '八戒资源,bjm3u8,976,1',
-             		'zylink': 'https://cj.bajiecaiji.com/'
+             		'zylink': 'http://bajiezy.cc/'
                  },{
                      'flag': '33uu',
                      'name': '156资源站',
@@ -278,7 +280,7 @@ var dcys = {
                  },
                  {
                      'flag': 'rrm3u8',
-                     'name': '爱美剧',
+                     'name': '爱美剧不可用',
                      'rema': 'HTTPS资源M3u8直链，需要专用解析接口https://www.rrzyw.cc/rrm3u8/index.php?url=',
                      'apis': 'https://www.rrzyw.cc/api.php/provide/vod/from/rrm3u8/at/xml/',
                      'tips': '<span class="layui-badge layui-bg-green">正常采集 </span>',
