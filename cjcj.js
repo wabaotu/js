@@ -53,13 +53,13 @@ var dcys = {
              		'zylink': 'http://tiankongzy.com/'
                  },
 				 {
-                     'flag': 'ckm3u8',
-                     'name': 'OK资源站',
-                     'rema': 'HTTPS资源M3u8直链',
-                     'apis': 'https://www.apizyp.com/inc/ckm3u8.php',
+                     'flag': 'bjm3u8',
+                     'name': '八戒资源网',
+                     'rema': '国内CDN',
+                     'apis': 'http://cj.bajiecaiji.com/inc/seabjm3u8.php',
                      'tips': '<span class="layui-badge layui-bg-green">正常采集 </span>',
-                     'coll': 'OK资源,ckm3u8,976,1',
-             		'zylink': 'https://www.apizyp.com/'
+                     'coll': '八戒资源,bjm3u8,976,1',
+             		'zylink': 'http://bajiezy.cc/'
                  },{
                      'flag': 'zuidam3u8',
                      'name': '最大资源站',
@@ -215,7 +215,7 @@ var dcys = {
                  },	{
                      'flag': 'bjm3u8',
                      'name': '八戒资源网',
-                     'rema': 'HTTPS资源M3u8直链',
+                     'rema': '国内CDN',
                      'apis': 'http://cj.bajiecaiji.com/inc/seabjm3u8.php',
                      'tips': '<span class="layui-badge layui-bg-green">正常采集 </span>',
                      'coll': '八戒资源,bjm3u8,976,1',
