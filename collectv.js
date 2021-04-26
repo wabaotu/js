@@ -595,7 +595,7 @@ var comm = {
                 },
                 'gepYe': _0x3118('0x13d', '3fsK'),
                 'rLNGs': _0x3118('0x13e', 'Y)6Y'),
-                'kNmMU': '//www.968790.com/?url=',
+                'kNmMU': '//player.lmzy.cc/dplayer/?url=',
                 'LWHZb': function _0x1ea879(_0x3090f5, _0x103a3a) {
                     return _0x3090f5 == _0x103a3a;
                 },
